@@ -1,0 +1,24 @@
+{
+  "customer": {
+    "id": "c1",
+    "firstName": "John",
+    "lastName": "Smith",
+    "burgers": [
+      {
+        "id": "b1",
+        "burgerName": "Classic Cheeseburger",
+        "price": 8.99
+      },
+      {
+        "id": "b2",
+        "burgerName": "Bacon BBQ Burger",
+        "price": 10.99
+      },
+      {
+        "id": "b3",
+        "burgerName": "Mushroom Swiss Burger",
+        "price": 9.99
+      }
+    ]
+  }
+}
