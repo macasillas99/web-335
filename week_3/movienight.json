@@ -1,0 +1,59 @@
+{
+  "movieNight": {
+    "viewers": [
+      {
+        "_id": 17,
+        "firstName": "Ava",
+        "lastName": "Johnson"
+      },
+      {
+        "_id": 18,
+        "firstName": "Liam",
+        "lastName": "Chen"
+      }
+    ],
+    "movies": [
+      {
+        "_id": 201,
+        "movieName": "Inception",
+        "genre": "Science Fiction"
+      },
+      {
+        "_id": 202,
+        "movieName": "The Princess Bride",
+        "genre": "Adventure"
+      },
+      {
+        "_id": 203,
+        "movieName": "Coco",
+        "genre": "Animation"
+      }
+    ],
+    "ratings": [
+      {
+        "_id": 301,
+        "ratingScore": 5,
+        "viewerId": 17,
+        "movieId": 201
+      },
+      {
+        "_id": 302,
+        "ratingScore": 4,
+        "viewerId": 17,
+        "movieId": 202
+      },
+      {
+        "_id": 303,
+        "ratingScore": 5,
+        "viewerId": 18,
+        "movieId": 201
+      },
+      {
+        "_id": 304,
+        "ratingScore": 4,
+        "viewerId": 18,
+        "movieId": 203
+      }
+    ]
+  }
+}
