@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "_id": "user001",
+      "firstName": "Maxine",
+      "lastName": "Casillas",
+      "devices": [
+        {
+          "_id": "device001",
+          "deviceName": "iPhone 15",
+          "deviceType": "Smartphone",
+          "charger_id": "charger001",
+          "charger": {
+            "_id": "charger001",
+            "chargerType": "USB-C Fast Charger",
+            "voltage": "20V"
+          }
+        },
+        {
+          "_id": "device002",
+          "deviceName": "iPad Air",
+          "deviceType": "Tablet",
+          "charger_id": "charger001",
+          "charger": {
+            "_id": "charger001",
+            "chargerType": "USB-C Fast Charger",
+            "voltage": "20V"
+          }
+        },
+        {
+          "_id": "device003",
+          "deviceName": "Kindle Paperwhite",
+          "deviceType": "E-Reader",
+          "charger_id": "charger002",
+          "charger": {
+            "_id": "charger002",
+            "chargerType": "USB-A Wall Charger",
+            "voltage": "5V"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "user002",
+      "firstName": "Roman",
+      "lastName": "Miller",
+      "devices": [
+        {
+          "_id": "device004",
+          "deviceName": "Samsung Galaxy S24",
+          "deviceType": "Smartphone",
+          "charger_id": "charger001",
+          "charger": {
+            "_id": "charger001",
+            "chargerType": "USB-C Fast Charger",
+            "voltage": "20V"
+          }
+        },
+        {
+          "_id": "device005",
+          "deviceName": "Nintendo Switch",
+          "deviceType": "Game Console",
+          "charger_id": "charger003",
+          "charger": {
+            "_id": "charger003",
+            "chargerType": "USB-C Console Charger",
+            "voltage": "15V"
+          }
+        }
+      ]
+    }
+  ]
+}
